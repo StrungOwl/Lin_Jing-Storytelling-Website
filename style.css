@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+canvas {
+  display: block;
+}
+
+h1, h2 {
+    color: #2600ff;
+    text-align: center;
+
+}
+
+main{
+  background-color: antiquewhite;
+  padding-top 10px;
+}
+
+a:hover {
+ color:#2600ff;
+}
+
+a{
+  display: block
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+p {
+  text-align: center;
+}
+
+
+/*
+Types of Selectors
+Element selectors: p, h1, h2
+ID selectors: #id-name
+Class selectors: .class-name
+atribute selectors: img["src"]
