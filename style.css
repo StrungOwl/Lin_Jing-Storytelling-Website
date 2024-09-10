@@ -4,6 +4,7 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
+/*
 main {
   font-size: 1.5em;
   margin: 0 auto;
@@ -36,7 +37,7 @@ img {
   margin-right: auto;
   width: 30%;
   border-radius: 10dvh;
-  opacity: 0.5; /* Slightly transparent */
+  opacity: 0.5; 
   padding: 7vh; 
 
 }
@@ -61,6 +62,8 @@ p, main {
   background-color: #f6f2d69f;
 }
 
+
+
 /*
 TYPES OF SELECTORS
 Element selectors: p, h1, h2
@@ -69,3 +72,4 @@ Class selectors: .class-name
 Attribute selectors: img["src"]
 Pseudo-class selectors: a:hover
 */
+
