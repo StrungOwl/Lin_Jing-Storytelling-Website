@@ -7,6 +7,7 @@ function setup() {
   canvas = createCanvas(window.innerWidth, window.innerHeight);
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
+  canvas.style('position', 'fixed');
   colorMode(HSB);
 
   circleSize = height * 0.1; // Adjusted size for a better grid
