@@ -1,10 +1,10 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-main{
+main {
   font-size: 1.5em;
   margin: 0 auto;
   padding: 10px;
@@ -15,56 +15,57 @@ canvas {
 }
 
 h1, h2 {
-  color: #2600ff;
+  color: #000000be; 
   text-align: center;
-
+   
 }
 
-main{
-  padding-top: 10px;
-}
-
-a:hover {
- color:#2600ff;
-}
-
-a{
-  display: block;
+#header-two {
+  color: #000000be; 
   text-align: center;
-  padding-bottom: 10px;
+  padding-top: 10px; 
+}
+
+main {
+  padding-top: 10px; 
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
-  border-radius: 10vh;
-  opacity: 0.5;
-  padding: 7vh;
+  width: 30%;
+  border-radius: 10dvh;
+  opacity: 0.5; /* Slightly transparent */
+  padding: 7vh; 
+
 }
 
 img:hover {
   border-radius: 0px;
-  opacity: 1.0;
+  opacity: 1.0; 
+
 }
 
-p {
+p{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding:6vh;  
+  padding: 6vh; 
   margin-bottom: 0;
   line-height: 2em;
 }
 
+
 p, main {
- background-color: #f6f2d69f;
+  background-color: #f6f2d69f;
 }
 
 /*
-Types of Selectors
+TYPES OF SELECTORS
 Element selectors: p, h1, h2
 ID selectors: #id-name
 Class selectors: .class-name
-atribute selectors: img["src"]
+Attribute selectors: img["src"]
+Pseudo-class selectors: a:hover
+*/
