@@ -12,7 +12,7 @@ let headerOne;
 let pageTwoImage;
 
 function preload(){
-  pageTwoImage = loadImage('Images/carCrash.jpg');
+  pageTwoImage = loadImage('Images/bar.jpg');
 
 }
 
@@ -104,7 +104,26 @@ function pageTwo(){
   let rectW = width*0.9;
   let rectH = height*0.9; 
   noStroke();
-  rect(width/2, height/2, rectW, rectH);
+  rect(width/2, height/2, rectW*0.5, rectH*0.5);
+  
+
   //Image---
-  image(pageTwoImage, width/2, height/2, width*0., height*0.1);
+  image(pageTwoImage, width/2, height/2, width*0.9, height*0.91);
+  
+    //rectangle
+    noStroke();
+    fill(13,30, 88, 0.60);
+    rect(width/2.0, height/1.10, width*0.50, height*0.10);
+
+    //Bar text
+    textAlign(CENTER, CENTER);
+  textSize(height*0.05)
+  stroke(0);
+  fill(0, 0, 0);
+  text("It's late and you're drunk, bar's closing soon", width/2, height/1.1);
+
+  //Phone choice button
+  noStroke();
+  fill(189, 18, 44);
+  ellipse(width/0.5, height/0.5, 2, 100, 100);
 }
